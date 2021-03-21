@@ -1,6 +1,6 @@
 # **Data Structures in Python Tutorials**
 This is the Python Data Structures Tutorial. To more fully understand data structures in python programming language you need to have a basic understanding of these topics.
-* [Stacks](_blank)
+* [Stacks](https://github.com/willardnyamombe/CSE-Datastructures/blob/main/DatastructureTutorials/Stacks.md)
 * [Set](_blank)
 * [Trees](_blank)
 
