@@ -135,4 +135,4 @@ print()
 
 ```
 In the problem above we will use ***test cases*** to make sure that it is clear how items are being added to the stack as well as how there are removed. We should be able to see the ***Pop*** and ***Push*** functions in actions. And for you to be able to see what was happening inside the stack we created a ***check*** function for that.  
-If you get stuck here is the [solution ]() to this problem.
+If you get stuck here is the [solution ](https://github.com/willardnyamombe/CSE-Datastructures/blob/main/DatastructureTutorials/stacksolution.py) to this problem.
