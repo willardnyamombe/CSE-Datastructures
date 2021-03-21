@@ -73,7 +73,7 @@ The Big O notation is what computer scientist use to calculate the perfomance of
 
 ## **Real world uses of a Stack data structure**
 We use the **pop** function when we click the back button on a browser. The pop function or back button will return to the last page that was visited.  
-The **push** function is when we seach for a website and then as soon as we are on the website that means we have just added that current page to our stack. This website will be at the back of the stack now.  
+The **push** function is when we search for a webpage and then as soon as we are on the webpage that means we have just added that page to our stack. This website will be at the back of the stack now.  
 Assuming you are familiar with classes in python here is a ***PROBLEM*** for you to solve:
 ```python
 """ 
@@ -90,18 +90,18 @@ class browser:
         self.page_visited = None
 """
     **Second part**
-    >create a push function that will add a name of a visited web page to the empty website list
+    >create a push function that will add a name of a visited webpage to the empty website list
 """
 # type your code here
 
 """
     **Third part**
-    >create a pop function that will remove a name of a last visited web page from the website list
+    >create a pop function that will remove a name of a last visited webpage from the website list
 """
     # type your code here
 """
     **Third part**
-    finish writing the code for the function below. This function should display the names of web pages that that are inside the website list.
+    finish writing the code for the function below. This function should display the names of webpages that that are inside the website list.
 """
     def check(self):
     # type your code here
@@ -111,7 +111,7 @@ class browser:
     Complete test cases below
 """
 browser = browser()
-#Test 1 is adding the first web page to the website list 
+#Test 1 is adding the first webpage to the website list 
 print("========Test One========")
 add "www.byui.edu"
 print()
