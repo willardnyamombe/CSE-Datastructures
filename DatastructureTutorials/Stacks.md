@@ -18,16 +18,30 @@ numbers = [1,2] #After removing 3
  
   **#** This is the only way to add an object in the stack data structure.
 
-In order to implement the **Push** operation we use the python built-in ***append()*** function. We are also required to specify the item we want to append or add to the stack. If we want to append `3` we start by mentioning the name of the stack and then using a dot(.) notation we link the append statement and add the item inside the brackets as follows: `name_of_stack.append(3)`.
-Here is a simple python example of how `3` was added or appended to `numbers`.
+In order to implement the **Push** operation we use the python built-in ***append()*** function. We are also required to specify the item we want to append or add to the stack. If we want to append `3` we start by mentioning the name of the stack and then using a dot(.) notation we link the append statement and add the item inside the brackets as follows: `name_of_stack.append(3)`.  
+Here is a simple python ***EXAMPLE*** of how `3`, `4`, and `0` are appended to `numbers` which already has `[1,2]` in it.
 
 ```python
-numbers = [1,2] #initial values of numbers
-numbers.append(3) # adding 3 to the stack
-print(numbers)
+numbers = [1,2] #initial values before adding anything
 
-#the result after running the print statement will be:
-[1,2,3]
+def push(num): #this function is adding or appending a value to the stack called numbers
+    return numbers.append(num)
+
+def check(): # this function is checking the content inside the stack called numbers
+        print(numbers)
+
+#Tests
+# Pushing into stack a new value, then checking to see the added values.
+print()
+print("===Whats in Numbers?===") 
+check()
+print("=====Test 1======")# add i item
+push(3)
+check()
+print("=====Test 2======")#Add 2 more items
+push(4)
+push(0)
+check()
 ```
 The perfomance of this operation is **O(1)**.
 
@@ -39,7 +53,7 @@ The remove operation from the example above is what is called the **Pop** operat
 
   In order to implement the **Pop** operation we use the python built-in **pop()** function.
 
- Let me give an example:
+ Let me give an ***EXAMPLE***:
 ```python
 
 numbers = [1,2,3] #
@@ -53,6 +67,72 @@ print(numbers)
 ```
 
 
-# PERFORMANCE
+## **Perfomance**
 What is **O(1)**? This comes from the term **Big O Notation**.   
 The Big O notation is what computer scientist use to calculate the perfomance of an algorithm when the size of the details is large. Depending on the size of the data we will be able to know how much time it will take to complete the function.  The Push and/or Pop operation for the above code examples is ***constant time*** or one unit of time because the value goes to a specified location. 
+
+## **Real world uses of a Stack data structure**
+We use the **pop** function when we click the back button on a browser. The pop function or back button will return to the last page that was visited.  
+The **push** function is when we seach for a website and then as soon as we are on the website that means we have just added that current page to our stack. This website will be at the back of the stack now.  
+Assuming you are familiar with classes in python here is a ***PROBLEM*** for you to solve:
+```python
+""" 
+    **First part**
+    >Create a class and name it browser
+     >Using the init method initialize 2 attributes named website and page_visited
+     >Then set website as an empty array
+     >Set page_visited to None
+     >You can copy the code below:
+    """
+class browser:
+    def __init__(self):
+        self.website = []
+        self.page_visited = None
+"""
+    **Second part**
+    >create a push function that will add a name of a visited web page to the empty website list
+"""
+# type your code here
+
+"""
+    **Third part**
+    >create a pop function that will remove a name of a last visited web page from the website list
+"""
+    # type your code here
+"""
+    **Third part**
+    finish writing the code for the function below. This function should display the names of web pages that that are inside the website list.
+"""
+    def check(self):
+    # type your code here
+
+"""
+    **Last part**
+    Complete test cases below
+"""
+browser = browser()
+#Test 1 is adding the first web page to the website list 
+print("========Test One========")
+add "www.byui.edu"
+print()
+print(browser.check())
+print()
+#Test 2 is adding the 2nd web page to the website list
+print("========Test Two========")
+print()
+add "www.facebook.com"
+print(browser.check())
+print()
+#Test 3 is adding the 3rd web page to the website list
+print("========Test Three========")
+add "www.instagram.com"
+print(browser.check())
+print()
+#Test 4 is removing the last web page visited from the website list
+print("========Test Four========")
+print(browser.check())
+print()
+
+```
+In the problem above we will use ***test cases*** to make sure that it is clear how items are being added to the stack as well as how there are removed. We should be able to see the ***Pop*** and ***Push*** functions in actions. And for you to be able to see what was happening inside the stack we created a ***check*** function for that.  
+If you get stuck here is the [solution ]() to this problem.
