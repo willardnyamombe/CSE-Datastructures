@@ -65,7 +65,7 @@ The result for this union should print: Union = {'banana', 'cash', 'phone', 'ear
 enter you code here
 The result for this intersection should print: Intersection = {'book', 'cash'}
 ```
-If you get stuck here is the [solution ](https://github.com/willardnyamombe/CSE-Datastructures/blob/main/DatastructureTutorials/stacksolution.py) to this problem.   
+If you get stuck here is the [solution ](https://github.com/willardnyamombe/CSE-Datastructures/blob/main/DatastructureTutorials/setssolution.md) to this problem.   
 
  
  
