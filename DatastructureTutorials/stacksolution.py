@@ -1,4 +1,4 @@
-```python
+python
 class browser:
     def __init__(self):
         self.website = []
@@ -36,4 +36,3 @@ print()
 browser.pop()
 print(browser.check())
 print()
-```
