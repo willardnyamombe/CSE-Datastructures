@@ -6,7 +6,7 @@ There are different types of trees but I will talk about Binary trees and Binary
 ## **Binary trees**
 These trees have a top most node which is called a `Root node` and theres only one root node per tree. This is generally the starting point. Consider looking at a tree upside down. The roots up as the first node , branches going down left to right as left and right nodes. If a node doesnt connect to any other node it is called a `leaf node`. A `parent node` is one that has connected node. these nodes that are connected to the parent node are called `child nodes`. The left and right nodes that are connected to the parent node form a ` subtree`. See figure below:   
 
-![Concept Diagram for Binary tree](020820_0600_BinarySearc1.png)     
+![Concept Diagram for Binary tree](https://www.guru99.com/images/1/020820_0600_BinarySearc1.png)     
 (obtained from www.guru99.com)
 ## **Binary Search Tree(BST)**
 This is a special type of binary tree where the element or data in the nodes have a specific order. All nodes on the left side of the parent nodes are less than the value of the parent node. And on the right side on the parent node we will see values higher than the values in the parent node. The other property for this tree is that data or values in nodes are unique. It doesnt take duplicates.    
