@@ -10,5 +10,5 @@ As you go through each subject or module you will have an idea of the different 
 I am ready to answer any questions of comments you might have on these modules. 
 
 Feel free to email me at:
-[nya19001@byui.edu](https://mail.outlook.com)
+[nya19001@byui.edu](https://outlook.office.com/mail/inbox)
 
